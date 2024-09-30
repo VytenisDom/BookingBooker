@@ -62,7 +62,7 @@ function MainController(model) {
         //     }
         // });
 
-        fetch("http://localhost:5678/addBooking", {
+        fetch("https://bookingbooker.onrender.com/addBooking", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -74,7 +74,7 @@ function MainController(model) {
     };
 
     const removeBooking = (key) => {
-        fetch("http://localhost:5678/removeBooking/" + key, {
+        fetch("https://bookingbooker.onrender.com/removeBooking/" + key, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
@@ -85,7 +85,7 @@ function MainController(model) {
     };
 
     const editBooking = (key, booking) => {
-        fetch("http://localhost:5678/editBooking/" + key, {
+        fetch("https://bookingbooker.onrender.com/editBooking/" + key, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
