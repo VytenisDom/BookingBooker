@@ -9,7 +9,7 @@ function MainController(model) {
 
 
     useEffect(() => {
-        fetch("http://localhost:5678/getBookings", {
+        fetch("https://bookingbooker.onrender.com/getBookings", {
             method: "GET"
         })
         .then(req => req.json())
