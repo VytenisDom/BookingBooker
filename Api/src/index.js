@@ -32,6 +32,10 @@ app.listen(5678, () => {
     console.log("Listening at 5678 port");
 });
 
+app.get('/', (req, res) => {
+    res.send("helo, this is home");
+});
+
 app.get('/getBookings', (req, res) => {
     Booking.findAll()
     .then((bookings) => {
