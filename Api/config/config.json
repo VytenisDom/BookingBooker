@@ -3,7 +3,8 @@
     "username": "postgres",
     "password": "tJewwQPAcVsGdUgYskBqanhhySzmLJMx",
     "database": "railway",
-    "host": "junction.proxy.rlwy.net:31805",
+    "host": "junction.proxy.rlwy.net",
+    "port" : "31805",
     "dialect": "postgres"
   }
 }
