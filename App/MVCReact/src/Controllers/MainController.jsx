@@ -9,7 +9,7 @@ function MainController(model) {
 
 
     useEffect(() => {
-        fetch("https://bookingbooker.onrender.com/getBookings", {
+        fetch("https://bookingbooker-production-baa6.up.railway.app/getBookings", {
             method: "GET"
         })
         .then(req => req.json())
@@ -62,7 +62,7 @@ function MainController(model) {
         //     }
         // });
 
-        fetch("https://bookingbooker.onrender.com/addBooking", {
+        fetch("https://bookingbooker-production-baa6.up.railway.app/addBooking", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -74,7 +74,7 @@ function MainController(model) {
     };
 
     const removeBooking = (key) => {
-        fetch("https://bookingbooker.onrender.com/removeBooking/" + key, {
+        fetch("https://bookingbooker-production-baa6.up.railway.app/removeBooking/" + key, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
@@ -85,7 +85,7 @@ function MainController(model) {
     };
 
     const editBooking = (key, booking) => {
-        fetch("https://bookingbooker.onrender.com/editBooking/" + key, {
+        fetch("https://bookingbooker-production-baa6.up.railway.app/editBooking/" + key, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
