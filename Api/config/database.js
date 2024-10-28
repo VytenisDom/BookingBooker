@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('verceldb', 'default', 'DuV6r0odyOjM', {
-  host: 'ep-raspy-haze-a4vjiwdc.us-east-1.aws.neon.tech', // Database host
+const sequelize = new Sequelize('railway', 'postgres', 'tJewwQPAcVsGdUgYskBqanhhySzmLJMx', {
+  host: 'junction.proxy.rlwy.net:31805', // Database host
   dialect: 'postgres', // Database type (e.g., 'mysql', 'postgres')
 });
 

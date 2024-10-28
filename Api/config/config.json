@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "default",
-    "password": "DuV6r0odyOjM",
-    "database": "verceldb",
-    "host": "ep-raspy-haze-a4vjiwdc.us-east-1.aws.neon.tech",
+    "username": "postgres",
+    "password": "tJewwQPAcVsGdUgYskBqanhhySzmLJMx",
+    "database": "railway",
+    "host": "junction.proxy.rlwy.net:31805",
     "dialect": "postgres"
   }
 }
