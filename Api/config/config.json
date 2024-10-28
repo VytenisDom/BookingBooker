@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "vytenis",
-    "password": "m0Nmsxw18lnUBztaugbpKmkcHygFPckL",
-    "database": "database_development_2mqs",
-    "host": "dpg-cropi4i3esus73c5jlmg-a",
+    "username": "default",
+    "password": "DuV6r0odyOjM",
+    "database": "verceldb",
+    "host": "ep-raspy-haze-a4vjiwdc.us-east-1.aws.neon.tech",
     "dialect": "postgres"
   }
 }
